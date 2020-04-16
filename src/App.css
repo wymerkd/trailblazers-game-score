@@ -21,96 +21,33 @@
 .scoreContainer {
   border: solid lightsalmon;
   margin-top: 2em;
-  display: flex;
-  flex-direction: column;
-  flex-basis: auto;
   width: 100%;
 }
 
 .gameHeader {
   padding: 1em 0 .5em 1em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
-/* .scoreContainer h2 {
-  border-bottom: solid red;
-  padding: .4em;
-  margin-bott
-.squareOne {
-  border: solid skyblue;
-  height: 350px;
-  margin-right: 10px;
-}
-
-.squareTwo {
-  border: solid teal;
-  height: 350px;
-  margin-left: 10px;
-  position: relative;
-}
-
-.scoreboxCard {
-  border: solid brown;
-  width: 100px;
-  height: 60px;
-  display: inline;
-  float: right;
-}
-
-.row {
-  position: relative;
-}
-
-.col-6 { 
-  padding: 0;
+.firstTeam {
   text-align: center;
+  border: solid red;
 }
 
-.col-2 {
-  padding: 0;
+.firstTeam h1, .versus h1, .secondTeam h1 {
+  padding: 3.5em 0 3.5em 0;
+}
+
+.versus {
   text-align: center;
-  position: absolute;
-  background-color: khaki;
-  z-index: 1;
-  top: 130px;
-  left: 470px;
+  border: solid green;
 }
 
-.versusCircle {
-  position: absolute;
+.secondTeam {
   text-align: center;
-  z-index: 1;
-  top: 50%;
-}  */
-
-/* .displayedTeam {
-  width: 50%;
-  height: auto;
-  border: solid blue;
-  display: inline-block;
+  border: solid red;
 }
 
-.versusCircle {
-  border: solid black;
-  border-radius: 50%;
-  width: 145px;
-  height: 145px;
-  display: inline-block;
-  position: absolute;
-  z-index: 1;
-  top: 30%;
-  left: 4%;
-  background-color: orange;
-}
-
-.versusCircle h3 {
-  text-align: center;
-  padding: 40px 0;
-}
-
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
