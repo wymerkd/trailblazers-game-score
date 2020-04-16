@@ -2,7 +2,7 @@
   margin-top: 40px;
   margin-right: auto;
   margin-left: auto;
-  border: solid black;
+  /* border: solid black; */
   max-width: 1170px;
 }
 
@@ -24,31 +24,52 @@
   width: 100%;
 }
 
+.headerRow {
+  border: solid pink;
+}
+
 .gameHeader {
   padding: 1em 0 .5em 1em;
   font-family: franklin-gothic-urw !important;
   text-transform: uppercase;
-  font-weight: normal !important;
+  font-weight: normal !important; 
+}
+
+.headerDivider {
+  width: 100%;
+  height: 12px;
+}
+
+.gameContainer {
+  border: solid grey;
+  margin-top: 1em;
 }
 
 .firstTeam, .versus, .secondTeam {
   text-align: center;
-  border: solid red;
+  /* border: solid red; */
   padding: 9em 0 9em 0;
 }
 
-.firstTeam h1, .versus h1, .secondTeam h1 {
-  /* padding: 3.5em 0 3.5em 0; */
-}
-
-.versus {
-  text-align: center;
-  border: solid green;
-}
-
 .secondTeam {
-  text-align: center;
-  border: solid red;
+  position: relative;
+}
+
+.scoreBox {
+  color: blue;
+  width: 140px;
+  border: solid black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.scoreBox p {
+  border-bottom: solid black;
+}
+
+.scoreBox h4 {
+  padding: .5em;
 }
 
 /* @media (min-width: 1200px) {
