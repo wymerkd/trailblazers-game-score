@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './App.css';
 
 
 export default function LiveGame(props) {
@@ -19,15 +18,15 @@ export default function LiveGame(props) {
         <div className="container gameContainer">
           <div className="row">
             <div className="firstTeam col-5">
-              <img src="" alt="team 1 logo"></img>
-              <h1>Team 1</h1>
+              <img src={props.liveGameData.firstTeamLogo} alt="first team logo"></img>
+              <h1>{props.liveGameData.firstTeam}</h1>
             </div>
             <div className="versus col-2">
               <h1>VS</h1>
             </div>
             <div className="secondTeam col-5">
-              <img src="" alt="team 2 logo"></img>
-              <h1>Team 2</h1>
+              <img src={props.liveGameData.secondTeamLogo} alt="second team logo"></img>
+              <h1>{props.liveGameData.secondTeam}</h1>
               <div className="scoreBox">
                 <p>Scorebox Card</p>
                 <h4>101-98</h4>
