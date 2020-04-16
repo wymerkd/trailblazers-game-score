@@ -66,3 +66,66 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+ <div className="App">
+      <div class="featuredGame" >
+        <div class="col-xs-12 ticket clearfix ${gameID}">
+          <div class="event col-xs-12">
+            <h1>FEATURED GAME</h1>
+            <div class="date">
+              <h4>${gameDay} - ${location}</h4>
+            </div>
+          </div>
+          <div class="match col-xs-12">
+            <div class="opponent col-xs-3 col-sm-4">
+              <div class="logo">
+                <img src=${logoURLpath} />
+              </div>
+              <div class="name">
+                <h2>${team}</h2>
+              </div>
+            </div>
+            <div class="vs col-xs-6 col-sm-4">
+              <h2>VS</h2>
+            </div>
+            <div class="home-team col-xs-3 col-sm-4">
+              <div class="logo">
+              </div>
+              <div class="name">
+                <h2>LA Galaxy</h2>
+              </div>
+            </div>
+          </div>
+          <div class="ticket-link col-xs-12">
+            <a id="presale-link${ticketURL}" target="_blank" href="#">VIEW TICKETS&nbsp;<i class="fas fa-caret-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+     <div>
+          <h2>Game Title  - Info - Arena</h2>
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-6">
+              <div className="squareOne">
+                <h1>Team 1</h1>
+              </div>
+            </div>
+            <div className="col-2">
+              <p>VS</p>
+            </div>
+            <div className="col-6">
+              <div className="squareTwo">
+                <h1>Team 2</h1>
+                <div className="scoreboxCard">
+                  <p>100-9</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
