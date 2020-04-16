@@ -10,7 +10,7 @@ export default function PostGame(props) {
       </div>
       <div className="container scoreContainer">
         <div className="row headerRow">
-          <div className="col-xs-12 gameHeader">
+          <div className="col-12 gameHeader">
             <h2>Game Title | Info |  Arena</h2>
           </div>
           {/* <img className="headerDivider" src="https://www.nba.com/blazers/sites/blazers/files/pageheaderbar_50thanniversary.jpg" alt="page header divider"></img> */}

@@ -19,14 +19,15 @@
 }
 
 .scoreContainer {
-  border: solid lightsalmon;
+  border: solid darkgray;
   margin-top: 2em;
   padding: 0;
   width: 100%;
+  height: auto;
 }
 
 .headerRow {
-  border: solid pink;
+  border-bottom: solid darkgray;
   margin: 0;
 }
 
@@ -43,8 +44,9 @@
 }
 
 .gameContainer {
-  border: solid grey;
+  border-bottom: solid darkgray;
   margin-top: 1em;
+  padding-bottom: 1em;
 }
 
 .firstTeam, .secondTeam {
@@ -62,9 +64,41 @@
   position: relative;
 }
 
-/* pregame for ticket link */
-.versus h1 {
-  padding-bottom: 2e
+/* pregame specific*/
+
+/* .actionButtons {
+  border: solid red;
+} */
+
+.headerRow button {
+  margin: 1em .5em;
+  padding: .3em 1.2em;
+  background-color: rgb(120, 120, 120);
+  color: white;
+}
+
+.pregameInfo {
+  /* margin-top: 1em; */
+}
+
+.pregameInfo button {
+  background-color: rgb(120, 120, 120);
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: .2em 1.2em;
+}
+
+.videoPreview h1 {
+  padding-top: 3em;
+  text-align: center;
+}
+
+.contentBoxRight {
+  border-top: solid darkgray;
+  border-bottom: solid darkgray;
+  border-left: solid darkgray;
+  padding: 1em
 }
 
 /* live game */
