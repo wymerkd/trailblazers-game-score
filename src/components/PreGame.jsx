@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 
-export default function LiveGame(props) {
+export default function PreGame(props) {
   return (
     <div className="mainContainer">
       <div className="adContainer">
@@ -23,14 +23,11 @@ export default function LiveGame(props) {
             </div>
             <div className="versus col-2">
               <h1>VS</h1>
+              <a href="https://www.w3docs.com/" target="_blank">View Tickets</a>
             </div>
             <div className="secondTeam col-5">
               <img src={props.gameData.secondTeamLogo} alt="second team logo"></img>
               <h1>{props.gameData.secondTeam}</h1>
-              <div className="scoreBox">
-                <p>Scorebox Card</p>
-                <h4>101-98</h4>
-              </div>
             </div>
           </div>
         </div>
@@ -38,3 +35,4 @@ export default function LiveGame(props) {
     </div>
   );
 }
+
