@@ -1,38 +1,79 @@
-.App {
+.mainContainer {
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: solid black;
+  max-width: 1170px;
+}
+
+.adContainer {
+  width: 728px;
+  height: 90px;
+  border: solid black;
+  margin: auto;
+}
+
+.adContainer h3 {
   text-align: center;
+  margin: .65em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.scoreContainer {
+  border: solid red;
+  margin: 2em auto 0px auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.scoreContainer h1 {
+  border-bottom: solid red;
+  padding: .4em;
+  margin-bottom: 0;
+}
+
+.teamContainer {
+  border: solid green;
+  margin: auto;
+}
+
+.displayedTeam {
+  width: 50%;
+  height: auto;
+  border: solid blue;
+  display: inline-block;
+}
+
+.versusCircle {
+  border: solid black;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+  position: absolute;
+  /* z-index: 1; */
+  /* top: 35%; */
+  background-color: orange;
+}
+
+.versusCircle h3 {
+  text-align: center;
+  padding: 40px 0;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
   }
 }
