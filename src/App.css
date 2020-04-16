@@ -58,14 +58,16 @@
   padding-top: 11em;
 }
 
-.versus h1 {
-  padding-bottom: 2em;
-}
-
 .secondTeam {
   position: relative;
 }
 
+/* pregame for ticket link */
+.versus h1 {
+  padding-bottom: 2e
+}
+
+/* live game */
 .scoreBox {
   color: blue;
   width: 140px;
@@ -81,6 +83,11 @@
 
 .scoreBox h4 {
   padding: .5em;
+}
+
+/* postgame */
+.final h4 {
+  text-align: center;
 }
 
 /* @media (min-width: 1200px) {

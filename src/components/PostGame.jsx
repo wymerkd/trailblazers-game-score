@@ -15,6 +15,11 @@ export default function PostGame(props) {
           </div>
           {/* <img className="headerDivider" src="https://www.nba.com/blazers/sites/blazers/files/pageheaderbar_50thanniversary.jpg" alt="page header divider"></img> */}
         </div>
+        <div className="row">
+          <div className="col-12 final">
+            <h4>Final</h4>
+          </div>
+        </div>
         <div className="container gameContainer">
           <div className="row">
             <div className="firstTeam col-5">
