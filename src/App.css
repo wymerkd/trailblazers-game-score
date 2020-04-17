@@ -46,7 +46,6 @@
 
 .gameContainer {
   border-bottom: solid darkgray;
-  background-color: lightgray;
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -57,14 +56,8 @@
   padding: 6em 0 6em 0;
 }
 
-.versus {
-  text-align: center;
-  padding-top: 11em;
-}
 
-.secondTeam {
-  position: relative;
-}
+
 
 /* pregame specific*/
 
@@ -128,17 +121,36 @@
 }
 
 /* live game */
+
+
+.teamsContainer {
+  position: relative;
+}
+
+.rowPadding {
+  padding: 0 3em;
+  background-color: lightgray;
+}
+
+.versus {
+  text-align: center;
+  padding-top: 11em;
+}
+
 .scoreBox {
-  color: blue;
-  width: 140px;
-  border: solid black;
+  width: 200px;
+  border-left: solid darkgray;
+  border-bottom: solid darkgray;
   position: absolute;
   top: 0px;
   right: 0px;
+  text-align: center;
+  background-color: white;;
 }
 
 .scoreBox p {
-  border-bottom: solid black;
+  border-bottom: solid darkgray;
+  background-color: lightgray;
 }
 
 .scoreBox h4 {
