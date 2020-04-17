@@ -19,7 +19,7 @@ export default function PreGame(props) {
           </div>
           {/* <img className="headerDivider" src="https://www.nba.com/blazers/sites/blazers/files/pageheaderbar_50thanniversary.jpg" alt="page header divider"></img> */}
         </div>
-        <div className="container gameContainer">
+        <div className="container gameDescriptionContainer">
           <div className="row">
             <div className="pregameInfo col-6">
               <h3>Header Description</h3>
@@ -28,7 +28,7 @@ export default function PreGame(props) {
             </div>
           </div>
         </div>
-        <div className="container gameContainer">
+        <div className="container gamePreviewContainer">
           <div className="row">
             <div className="videoPreview col-8">
               <h1>Video</h1>
@@ -39,9 +39,9 @@ export default function PreGame(props) {
             </div>
           </div>
         </div>
-        <div className="container gameContainer">
+        <div className="container pregameContentContainer">
           <div className="row">
-            <div className="pregameInfo col-12">
+            <div className="pregameContent col-12">
               <h3>Header Description</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>

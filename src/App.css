@@ -8,9 +8,10 @@
 
 .adContainer {
   width: 900px;
-  height: 90px;
-  border: solid lightseagreen;
+  height: 80px;
+  border: solid darkgray;
   margin: 2em auto 0 auto;
+  background-color: lightgray;
 }
 
 .adContainer h3 {
@@ -32,10 +33,10 @@
 }
 
 .gameHeader {
-  padding: 1em 0 .5em 1em;
-  font-family: franklin-gothic-urw !important;
-  text-transform: uppercase;
-  font-weight: normal !important; 
+  padding: 1em 0 .5em 2em;
+  /* font-family: franklin-gothic-urw !important; */
+  /* text-transform: uppercase; */
+  /* font-weight: normal !important; */
 }
 
 .headerDivider {
@@ -45,7 +46,8 @@
 
 .gameContainer {
   border-bottom: solid darkgray;
-  margin-top: 1em;
+  background-color: lightgray;
+  padding-top: 1em;
   padding-bottom: 1em;
 }
 
@@ -77,6 +79,21 @@
   color: white;
 }
 
+.gameDescriptionContainer {
+  border-bottom: solid darkgray;
+  background-color: lightgray;
+  padding: 2em;
+}
+
+.gamePreviewContainer {
+  margin-top: 2.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: solid darkgray;
+  border-bottom: solid darkgray;
+  background-color: lightgray;
+}
+
 .pregameInfo {
   /* margin-top: 1em; */
 }
@@ -94,11 +111,20 @@
   text-align: center;
 }
 
+.videoPreview {
+  background-color: lightgray;
+}
+
 .contentBoxRight {
   border-top: solid darkgray;
   border-bottom: solid darkgray;
   border-left: solid darkgray;
-  padding: 1em
+  padding: 1em;
+  background-color: white;
+}
+
+.pregameContent {
+  padding: 2em;
 }
 
 /* live game */
