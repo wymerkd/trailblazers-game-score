@@ -137,6 +137,10 @@
   padding-top: 11em;
 }
 
+.teamsContainer {
+  border-bottom: solid darkgray;
+}
+
 .scoreBox {
   width: 200px;
   border-left: solid darkgray;
@@ -156,8 +160,17 @@
 .scoreBox h4 {
   padding: .5em;
 }
+
+.scoreFeedContainer {
+  margin-top: 2.5em;
+}
+
 .scoreFeedContainer .col-12 {
   text-align: center;
+  background-color: lightgray;
+  border-top: solid darkgray;
+  padding-top: .2em;
+  height: 2em;
 }
 
 .scoreFeedBoxes {
@@ -165,14 +178,32 @@
   width: 100%;
 }
 
-.scoreFeedBoxes .col-sm-2 {
+.scoreFeedBoxes .col {
   text-align: center;
-  border: solid red;
+  border-top: solid darkgray;
+  border-right: solid darkgray;
+  padding-top: .3em;
+  font-size: 1.1em;
+}
+
+.scoreFeedBoxes .noBorderRight {
+  border-right: none;
+}
+
+.scoreFeedBoxes p {
+  font-size: 1.1em;
 }
 
 /* postgame */
-.final h4 {
+.finalRow {
+  background-color: gray;
+  border-bottom: solid darkgray; 
+  margin: 0;
+}
+
+.final h5 {
   text-align: center;
+  padding: .5em 0 .4em 0;
 }
 
 /* @media (min-width: 1200px) {

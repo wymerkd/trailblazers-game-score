@@ -39,27 +39,31 @@ export default function LiveGame(props) {
               <p>Score Feed</p>
             </div>
             <div className="row scoreFeedBoxes">
-              <div className="col-sm-2">
+              <div className="col">
                 <p>Game</p>
                 <p>101 - 98</p>
               </div>
-              <div className="col-sm-2">
+              <div className="col">
                 <p>Game</p>
                 <p>101 - 98</p>
               </div>
-              <div className="col-sm-2">
+              <div className="col">
                 <p>Game</p>
                 <p>101 - 98</p>
               </div>
-              <div className="col-sm-2">
+              <div className="col">
                 <p>Game</p>
                 <p>101 - 98</p>
               </div>
-              <div className="col-sm-2">
+              <div className="col">
                 <p>Game</p>
                 <p>101 - 98</p>
               </div>
-              <div className="col-sm-2">
+              <div className="col">
+                <p>Game</p>
+                <p>101 - 98</p>
+              </div>
+              <div className="col noBorderRight">
                 <p>Game</p>
                 <p>101 - 98</p>
               </div>
