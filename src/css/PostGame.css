@@ -1,0 +1,59 @@
+.postGameMainContainer {
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1170px;
+}
+
+.postGameScoreContainer {
+  border: solid darkgray;
+  margin-top: 2em;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.postGameHeaderRow {
+  border-bottom: solid darkgray;
+  margin: 0;
+}
+
+.postGameHeader {
+  padding: 1em 0 .5em 2em;
+}
+
+.finalRow {
+  background-color: gray;
+  border-bottom: solid darkgray;
+  margin: 0;
+}
+
+.final {
+  text-align: center;
+  padding: .5em 0 .4em 0;
+}
+
+.postGameTeamsContainer {
+  position: relative;
+  border-bottom: solid darkgray;
+}
+
+.postGameRowPadding {
+  padding: 0 4em;
+  background-color: lightgray;
+}
+
+.postGameFirstTeam, .postGameSecondTeam {
+  text-align: center;
+  padding: 6em 0 6em 0;
+}
+
+.versus {
+  text-align: center;
+  padding-top: 11em;
+}
+
+.quarters h3 {
+  text-align: center;
+  padding: .5em 0 .4em 0;
+}

@@ -6,7 +6,7 @@ import './App.css';
 import testJsonObject from './test_json_object.js'
 
 //Components
-
+import Ad from './components/Ad';
 import PreGame from './components/PreGame';
 import LiveGame from './components/LiveGame';
 import PostGame from './components/PostGame';
@@ -25,20 +25,12 @@ render(){
   return (
     <div className="App">
       <div className="Container">
-        <h1>Pre Game</h1>
+        < Ad/>
         <PreGame gameData={this.state.gameData} />
         <br></br>
-        <br></br>
-        <br></br>
-        <h1>Live Game</h1>
         <LiveGame gameData={this.state.gameData} />
         <br></br>
-        <br></br>
-        <br></br>
-        <h1>Post Game</h1>
         <PostGame gameData={this.state.gameData} />
-        <br></br>
-        <br></br>
         <br></br>
       </div>
     </div>

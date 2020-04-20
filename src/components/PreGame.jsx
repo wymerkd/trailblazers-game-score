@@ -6,9 +6,6 @@ import '../css/PreGame.css';
 export default function PreGame(props) {
   return (
     <div className="preGameMainContainer">
-      <div className="adContainer">
-        <h3>Ad</h3>
-      </div>
       <div className="container preGameScoreContainer">
         <div className="row preGameHeaderRow">
           <div className="col-8 preGameHeader">

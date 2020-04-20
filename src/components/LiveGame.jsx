@@ -6,9 +6,6 @@ import '../css/LiveGame.css';
 export default function LiveGame(props) {
   return (
     <div className="liveGameMainContainer">
-      <div className="adContainer">
-        <h3>Ad</h3>
-      </div>
       <div className="container liveGameScoreContainer">
         <div className="row liveGameHeaderRow">
           <div className="col-xs-12 liveGameHeader">
