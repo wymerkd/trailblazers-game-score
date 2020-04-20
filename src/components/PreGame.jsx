@@ -1,27 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../css/PreGame.css';
 
 
 export default function PreGame(props) {
   return (
-    <div className="mainContainer">
+    <div className="preGameMainContainer">
       <div className="adContainer">
         <h3>Ad</h3>
       </div>
-      <div className="container scoreContainer">
-        <div className="row headerRow">
-          <div className="col-8 gameHeader">
+      <div className="container preGameScoreContainer">
+        <div className="row preGameHeaderRow">
+          <div className="col-8 preGameHeader">
             <h2>Game Title | Info |  Arena</h2>
           </div>
-          <div className="col-4 actionButtons">
-            <button className="calendarButton">Add to Calendar</button>
+          <div className="col-4">
+            <button>Add to Calendar</button>
             <button>Download PDF</button>
           </div>
-          {/* <img className="headerDivider" src="https://www.nba.com/blazers/sites/blazers/files/pageheaderbar_50thanniversary.jpg" alt="page header divider"></img> */}
         </div>
-        <div className="container gameDescriptionContainer">
+        <div className="container preGameContainer">
           <div className="row">
-            <div className="pregameInfo col-6">
+            <div className="col-6">
               <h3>Header Description</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <button>See Tickets</button>
@@ -39,9 +39,9 @@ export default function PreGame(props) {
             </div>
           </div>
         </div>
-        <div className="container pregameContentContainer">
+        <div className="container">
           <div className="row">
-            <div className="pregameContent col-12">
+            <div className="preGameContent col-12">
               <h3>Header Description</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>

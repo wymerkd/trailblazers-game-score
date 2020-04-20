@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../css/PostGame.css';
 
 
 export default function PostGame(props) {
@@ -21,10 +22,6 @@ export default function PostGame(props) {
           </div>
         </div>
         <div className="container teamsContainer">
-          <div className="scoreBox">
-            <p>Scorebox Card</p>
-            <h4>101 - 98</h4>
-          </div>
           <div className="row rowPadding">
             <div className="firstTeam col-5">
               <img src={props.gameData.firstTeamLogo} alt="first team logo"></img>
@@ -39,7 +36,18 @@ export default function PostGame(props) {
             </div>
           </div>
         </div>
+        <div className="row quarterlyRow">
+          <div className="col-12 quarters">
+            <h3>Q1 - Q2 - Q3 - Q4</h3>
+          </div>
+        </div>
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </div>
   );
 }

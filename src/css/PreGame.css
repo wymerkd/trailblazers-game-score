@@ -1,0 +1,66 @@
+.preGameMainContainer {
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1170px;
+}
+
+.preGameScoreContainer {
+  border: solid darkgray;
+  margin-top: 2em;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.preGameHeaderRow {
+  border-bottom: solid darkgray;
+  margin: 0;
+}
+
+.preGameHeader {
+  padding: 1em 0 .5em 2em;
+}
+
+.preGameHeaderRow button {
+  margin: 1em .5em;
+  padding: .3em 1.2em;
+  background-color: rgb(120, 120, 120);
+  color: white;
+}
+
+.preGameContainer {
+  border-bottom: solid darkgray;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.gamePreviewContainer {
+  margin-top: 2.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: solid darkgray;
+  border-bottom: solid darkgray;
+  background-color: lightgray;
+}
+
+.videoPreview {
+  background-color: lightgray;
+}
+
+.videoPreview h1 {
+  padding-top: 3em;
+  text-align: center;
+}
+
+.contentBoxRight {
+  border-top: solid darkgray;
+  border-bottom: solid darkgray;
+  border-left: solid darkgray;
+  padding: 1em;
+  background-color: white;
+}
+
+.preGameContent {
+  padding: 2em;
+}
