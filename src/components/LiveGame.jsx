@@ -5,36 +5,36 @@ import '../css/LiveGame.css';
 
 export default function LiveGame(props) {
   return (
-    <div className="mainContainer">
+    <div className="liveGameMainContainer">
       <div className="adContainer">
         <h3>Ad</h3>
       </div>
-      <div className="container scoreContainer">
-        <div className="row headerRow">
-          <div className="col-xs-12 gameHeader">
+      <div className="container liveGameScoreContainer">
+        <div className="row liveGameHeaderRow">
+          <div className="col-xs-12 liveGameHeader">
             <h2>Game Title | Info |  Arena</h2>
           </div>
         </div>
-        <div className="container teamsContainer">
-          <div className="scoreBox">
+        <div className="container liveGameTeamsContainer">
+          <div className="liveGameScoreBox">
             <p>Scorebox Card</p>
             <h4>101 - 98</h4>
           </div>
           <div className="row rowPadding">
-            <div className="firstTeam col-5">
+            <div className="liveGameFirstTeam col-5">
               <img src={props.gameData.firstTeamLogo} alt="first team logo"></img>
               <h2>{props.gameData.firstTeam}</h2>
             </div>
             <div className="versus col-2">
               <h1>VS</h1>
             </div>
-            <div className="secondTeam col-5">
+            <div className="liveGameSecondTeam col-5">
               <img src={props.gameData.secondTeamLogo} alt="second team logo"></img>
               <h2>{props.gameData.secondTeam}</h2>
             </div>
           </div>
         </div>
-        <div className="container scoreFeedContainer">
+        <div className="container liveGameScoreFeedContainer">
           <div className="row">
             <div className="col-12">
               <p>Score Feed</p>

@@ -61,76 +61,7 @@
 /* live game */
 
 
-.teamsContainer {
-  position: relative;
-}
 
-.rowPadding {
-  padding: 0 4em;
-  background-color: lightgray;
-}
-
-.versus {
-  text-align: center;
-  padding-top: 11em;
-}
-
-.teamsContainer {
-  border-bottom: solid darkgray;
-}
-
-.scoreBox {
-  width: 200px;
-  border-left: solid darkgray;
-  border-bottom: solid darkgray;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  text-align: center;
-  background-color: white;;
-}
-
-.scoreBox p {
-  border-bottom: solid darkgray;
-  background-color: lightgray;
-}
-
-.scoreBox h4 {
-  padding: .5em;
-}
-
-.scoreFeedContainer {
-  margin-top: 2.5em;
-}
-
-.scoreFeedContainer .col-12 {
-  text-align: center;
-  background-color: lightgray;
-  border-top: solid darkgray;
-  padding-top: .2em;
-  height: 2em;
-}
-
-.scoreFeedBoxes {
-  margin: 0;
-  width: 100%;
-}
-
-.scoreFeedBoxes .col {
-  text-align: center;
-  border-top: solid darkgray;
-  border-right: solid darkgray;
-  padding-top: .3em;
-  font-size: 1.1em;
-}
-
-.scoreFeedBoxes .noBorderRight {
-  border-right: none;
-}
-
-.scoreFeedBoxes p {
-  font-size: 1.1em;
-}
 
 /* postgame */
 .finalRow {
