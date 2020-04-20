@@ -1,29 +1,3 @@
-
-
-
-
-/* pregame specific*/
-
-
-
-/* live game */
-
-
-
-
-/* postgame */
-.finalRow {
-  background-color: gray;
-  border-bottom: solid darkgray; 
-  margin: 0;
-}
-
-.final, .quarters h3 {
-  text-align: center;
-  padding: .5em 0 .4em 0;
-}
-
-
 /* @media (min-width: 1200px) {
   .container {
     width: 1170px;

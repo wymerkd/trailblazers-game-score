@@ -1,131 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# _Trailblazers Game Scores_
 
-## Available Scripts
+#### By Kyle Wymer**_
 
-In the project directory, you can run:
+## Description
 
-### `yarn start`
+#### _This is an application was made as a POC for the Portland Trailblazers pre-game, live game, and post-game score game score views. It acts as the skeleton for said views, and can easily be plugged in to a backend. Currently it pulls in data from the test_json_object.js, which are being past to each component via props_
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Things that will need to change once connected to backend 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* _Set conditional rendering to switch between PreGame, LiveGame, and PostGame views depening on time in regards to specific game_
 
-### `yarn test`
+* _Switch out hard coded data in jsx files to display data using props (currently linked to dummy JSON object titled test_json_object.js)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup/Installation Requirements
 
-### `yarn build`
+* _$ git clone https://github.com/wymerkd/trailblazers-game-score.git_
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* _$ cd trailblazers-game-score_
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* _$ npm install_
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* _$ npm run start (browser will open to localhost:3000)_  
 
-### `yarn eject`
+## Support and contact details
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+_For any questions, comments or contributions please contact Kyle Wymer (wymerkd@gmail.com)_
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+_React, CSS_
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+*The MIT License
 
 
- <div className="App">
-      <div class="featuredGame" >
-        <div class="col-xs-12 ticket clearfix ${gameID}">
-          <div class="event col-xs-12">
-            <h1>FEATURED GAME</h1>
-            <div class="date">
-              <h4>${gameDay} - ${location}</h4>
-            </div>
-          </div>
-          <div class="match col-xs-12">
-            <div class="opponent col-xs-3 col-sm-4">
-              <div class="logo">
-                <img src=${logoURLpath} />
-              </div>
-              <div class="name">
-                <h2>${team}</h2>
-              </div>
-            </div>
-            <div class="vs col-xs-6 col-sm-4">
-              <h2>VS</h2>
-            </div>
-            <div class="home-team col-xs-3 col-sm-4">
-              <div class="logo">
-              </div>
-              <div class="name">
-                <h2>LA Galaxy</h2>
-              </div>
-            </div>
-          </div>
-          <div class="ticket-link col-xs-12">
-            <a id="presale-link${ticketURL}" target="_blank" href="#">VIEW TICKETS&nbsp;<i class="fas fa-caret-right"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-     <div>
-          <h2>Game Title  - Info - Arena</h2>
-        </div>
-        <div className="container">
-          <div className="row">
-            <div className="col-6">
-              <div className="squareOne">
-                <h1>Team 1</h1>
-              </div>
-            </div>
-            <div className="col-2">
-              <p>VS</p>
-            </div>
-            <div className="col-6">
-              <div className="squareTwo">
-                <h1>Team 2</h1>
-                <div className="scoreboxCard">
-                  <p>100-9</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+Copyright (c) 2020 **_Joshua Forman, Kyle Wymer, Marcus Jensen_**
