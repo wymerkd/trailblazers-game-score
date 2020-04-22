@@ -122,7 +122,8 @@
   }
 
   .videoPreview h1 {
-    padding: 180px 100px;
+    padding-top: 180px;
+    padding-bottom: 180px;
   }
 
   .contentBoxRight {

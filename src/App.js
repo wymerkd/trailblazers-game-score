@@ -10,7 +10,6 @@ import Ad from './components/Ad';
 import PreGame from './components/PreGame';
 import LiveGame from './components/LiveGame';
 import PostGame from './components/PostGame';
-import BootStrapCarousel from './components/BootStrapCarousel';
 
 
 class App extends React.Component {
@@ -32,8 +31,6 @@ render(){
         <LiveGame gameData={this.state.gameData} />
         <br></br>
         <PostGame gameData={this.state.gameData} />
-        <br></br>
-        <BootStrapCarousel />
         <br></br>
       </div>
     </div>
