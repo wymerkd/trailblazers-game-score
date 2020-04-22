@@ -17,3 +17,9 @@
   text-align: center;
   margin: .65em;
 }
+
+@media only screen and (max-width: 768px) {
+  .adContainer {
+    width: 90%;
+  }
+}
