@@ -35,6 +35,11 @@
   padding-bottom: 1em;
 }
 
+.mobileHeader {
+  display: none;
+}
+
+
 .preGameContainer button {
   margin: 1em .5em;
   padding: .3em 1.2em;
@@ -76,8 +81,29 @@
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
- 
-  .preGameHeaderRow {
-    width: 100%;
+
+  .preGameHeaderRow,
+  .preGameContainer h3,
+  .preGameContainer p {
+    display: none;
+  }
+
+  .preGameContainer  {
+    background-color: lightgray;
+    height: 500px;
+  }
+
+  .mobileHeader {
+    display: inherit;
+    text-align: center;
+    /* padding used to fill space for POC, remove padding once space is filled with other content */
+    padding-bottom: 360px;
+    /* end */
+  }
+
+  .preGameContainer button {
+    margin: 0 auto .75em auto;
+    display: block;
+    width: 65%;
   }
 }
