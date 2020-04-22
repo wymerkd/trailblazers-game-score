@@ -35,6 +35,19 @@
   padding-bottom: 1em;
 }
 
+.mobileHeader {
+  display: none;
+}
+
+
+.preGameContainer button {
+  margin: 1em .5em;
+  padding: .3em 1.2em;
+  background-color: rgb(120, 120, 120);
+  color: white;
+  font-size: 1.5em;
+}
+
 .gamePreviewContainer {
   margin-top: 2.5em;
   padding-top: 1em;
@@ -63,4 +76,59 @@
 
 .preGameContent {
   padding: 2em;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+  /* first pregame container (header and ticket button) */
+  .preGameScoreContainer {
+    border: none;
+  }
+  
+  .preGameHeaderRow,
+  .preGameContainer h3,
+  .preGameContainer p {
+    display: none;
+  }
+
+  .preGameContainer  {
+    background-color: lightgray;
+    border: solid darkgray;
+  }
+
+  .mobileHeader {
+    display: inherit;
+    text-align: center;
+    /* padding used to fill space for POC, remove padding once space is filled with other content */
+    padding-bottom: 300px;
+    /* end */
+  }
+
+  .preGameContainer button {
+    margin: 0 auto .75em auto;
+    display: block;
+    width: 65%;
+  }
+  /* end first pregame container */
+
+  /* second pregame container (video) */
+  .gamePreviewContainer {
+    border: solid darkgray;
+  }
+
+  .videoPreview {
+    margin: 0 auto;
+  }
+
+  .videoPreview h1 {
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+
+  .contentBoxRight {
+    display: none;
+  }
+   /* end second pregame container */
+
 }

@@ -25,7 +25,7 @@ render(){
   return (
     <div className="App">
       <div className="Container">
-        < Ad/>
+        <Ad />
         <PreGame gameData={this.state.gameData} />
         <br></br>
         <LiveGame gameData={this.state.gameData} />

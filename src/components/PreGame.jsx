@@ -18,9 +18,12 @@ export default function PreGame(props) {
         </div>
         <div className="container preGameContainer">
           <div className="row">
-            <div className="col-6">
+            <div className="col-6 col-12">
               <h3>Header Description</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              {/* Header for mobile only */}
+              <h4 className="mobileHeader">Game Hero Name</h4>
+              {/* end */}
               <button>See Tickets</button>
             </div>
           </div>
