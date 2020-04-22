@@ -35,6 +35,14 @@
   padding-bottom: 1em;
 }
 
+.preGameContainer button {
+  margin: 1em .5em;
+  padding: .3em 1.2em;
+  background-color: rgb(120, 120, 120);
+  color: white;
+  font-size: 1.5em;
+}
+
 .gamePreviewContainer {
   margin-top: 2.5em;
   padding-top: 1em;
@@ -68,8 +76,8 @@
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
+ 
+  .preGameHeaderRow {
     width: 100%;
   }
 }
