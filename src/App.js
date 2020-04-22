@@ -10,6 +10,7 @@ import Ad from './components/Ad';
 import PreGame from './components/PreGame';
 import LiveGame from './components/LiveGame';
 import PostGame from './components/PostGame';
+import BootStrapCarousel from './components/BootStrapCarousel';
 
 
 class App extends React.Component {
@@ -25,12 +26,14 @@ render(){
   return (
     <div className="App">
       <div className="Container">
-        < Ad/>
+        <Ad />
         <PreGame gameData={this.state.gameData} />
         <br></br>
         <LiveGame gameData={this.state.gameData} />
         <br></br>
         <PostGame gameData={this.state.gameData} />
+        <br></br>
+        <BootStrapCarousel />
         <br></br>
       </div>
     </div>
