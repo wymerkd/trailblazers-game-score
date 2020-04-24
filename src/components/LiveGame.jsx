@@ -72,11 +72,11 @@ export default function LiveGame(props) {
           </div>
         </div>
         {/* end */}
-        {/* Containers for mobile only */}
+        {/* Content for mobile only */}
         <div className="container liveGameMobileVideo">
           <div className="row">
-            <div className="col-12 liveGameMobileView">
-              <h3 className="liveGameMobileHeader">Video Highlights</h3>
+            <div className="col-12">
+              <h3>Video Highlights</h3>
               <h1>Video</h1>
             </div>
           </div>

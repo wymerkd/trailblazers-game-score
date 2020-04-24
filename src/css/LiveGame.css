@@ -95,10 +95,12 @@
   border-right: none;
 }
 
-.mobileContainer,
-.mobileContainer2 {
+/* content for mobile view only */
+.liveGameMobileVideo,
+.liveGameMobileContent {
   display: none;
 }
+/* end */
 
 /* Media Queries */
 
