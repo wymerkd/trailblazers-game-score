@@ -35,10 +35,11 @@
   padding-bottom: 1em;
 }
 
-.mobileHeader {
+/* Header for mobile only */
+.preGameMobileHeader {
   display: none;
 }
-
+/* end */
 
 .preGameContainer button {
   margin: 1em .5em;
@@ -78,15 +79,19 @@
   padding: 2em;
 }
 
+
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
-
+  
+  /* first pregame container (all content) */
   .preGameMainContainer {
     margin-left: .4em;
     margin-right: .4em;
   }
-  /* first pregame container (header and ticket button) */
+  /* end first pregame container */
+
+  /* second pregame container (header and ticket button) */
   .preGameScoreContainer {
     border: none;
   }
@@ -102,7 +107,7 @@
     border: solid darkgray;
   }
 
-  .mobileHeader {
+  .preGameMobileHeader {
     display: inherit;
     text-align: center;
     /* padding used to fill space for POC, remove padding once space is filled with other content */
@@ -115,9 +120,9 @@
     display: block;
     width: 65%;
   }
-  /* end first pregame container */
+  /* end second pregame container */
 
-  /* second pregame container (video) */
+  /* third pregame container (video) */
   .gamePreviewContainer {
     border: solid darkgray;
   }
@@ -134,6 +139,5 @@
   .contentBoxRight {
     display: none;
   }
-   /* end second pregame container */
-
+   /* end third pregame container */
 }

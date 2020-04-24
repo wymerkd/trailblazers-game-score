@@ -32,6 +32,14 @@ export default function PostGame(props) {
             </div>
           </div>
         </div>
+        <div className="container mobileContainer">
+          <div className="row">
+            <div className="col-12 liveGameMobileView">
+              <h3 className="liveGameMobileHeader">Video Highlights</h3>
+              <h1>Video</h1>
+            </div>
+          </div>
+        </div>
         <div>
           <div className="col-12 quarters">
             <h3>Q1 - Q2 - Q3 - Q4</h3>

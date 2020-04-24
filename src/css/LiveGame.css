@@ -100,6 +100,8 @@
   display: none;
 }
 
+/* Media Queries */
+
 @media only screen and (max-width: 768px) {
   .liveGameMainContainer {
     margin-left: .4em;
@@ -116,7 +118,7 @@
     display: none;
   }
 
-  .mobileContainer {
+  .liveGameMobileVideo {
     display: inherit;
     border: solid darkGray;
     background-color: lightGray;
@@ -124,16 +126,18 @@
     padding-top: 1.2em;
   }
 
-  .mobileContainer h4 {
+  .liveGameMobileVideo h3 {
     padding-bottom: 160px;
   }
 
-  .mobileContainer h1 {
+  .liveGameMobileVideo h1 {
     padding-bottom: 200px;
   }
 
-  .mobileContainer2 {
+  .liveGameMobileContent {
     display: inherit;
     padding: 2em;
   }
 }
+
+/* change name of mobile container cause its in pregame as well */

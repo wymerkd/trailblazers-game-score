@@ -57,3 +57,20 @@
   text-align: center;
   padding: .5em 0 .4em 0;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+  .postGameMainContainer {
+    margin-left: .4em;
+    margin-right: .4em;
+  }
+
+  .postGameHeaderRow,
+  .finalRow,
+  .postGameTeamsContainer {
+    display: none;
+  }
+
+
+}
