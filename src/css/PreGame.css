@@ -81,6 +81,11 @@
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
+
+  .preGameMainContainer {
+    margin-left: .4em;
+    margin-right: .4em;
+  }
   /* first pregame container (header and ticket button) */
   .preGameScoreContainer {
     border: none;

@@ -94,3 +94,46 @@
 .scoreFeedBoxes .noBorderRight {
   border-right: none;
 }
+
+.mobileContainer,
+.mobileContainer2 {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .liveGameMainContainer {
+    margin-left: .4em;
+    margin-right: .4em;
+  }
+
+  .liveGameScoreContainer {
+    border: none;
+  }
+
+  .liveGameHeaderRow,
+  .liveGameTeamsContainer,
+  .liveGameScoreFeedContainer {
+    display: none;
+  }
+
+  .mobileContainer {
+    display: inherit;
+    border: solid darkGray;
+    background-color: lightGray;
+    text-align: center;
+    padding-top: 1.2em;
+  }
+
+  .mobileContainer h4 {
+    padding-bottom: 160px;
+  }
+
+  .mobileContainer h1 {
+    padding-bottom: 200px;
+  }
+
+  .mobileContainer2 {
+    display: inherit;
+    padding: 2em;
+  }
+}

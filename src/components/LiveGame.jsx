@@ -68,6 +68,22 @@ export default function LiveGame(props) {
             </div>
           </div>
         </div>
+        <div className="container mobileContainer">
+          <div className="row">
+            <div className="col-12 liveGameMobileView">
+              <h4 className="liveGameMobileHeader">Video Highlights</h4>
+              <h1>Video</h1>
+            </div>
+          </div>
+        </div>
+        <div className="container mobileContainer2">
+          <div className="row">
+            <div className="liveGameContent col-12">
+              <h3>Header Description</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
