@@ -53,7 +53,51 @@
   padding-top: 11em;
 }
 
+/* for mobile view only */
+.postGameMobileVideo {
+  display: none;
+}
+/* end */
+
 .quarters h3 {
   text-align: center;
   padding: .5em 0 .4em 0;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+  /* first post game container (all content) */
+  .postGameMainContainer {
+    margin-left: .4em;
+    margin-right: .4em;
+  }
+  /* end */
+
+  .postGameDesktopOnly{
+    display: none;
+  }
+
+  /* dispayed only for mobile view */
+  .postGameMobileVideo {
+    display: inherit;
+    border-bottom: solid darkGray;
+    background-color: lightGray;
+    text-align: center;
+    padding-top: 1.2em;
+  }
+
+  .postGameMobileVideo h3 {
+    padding-bottom: 160px;
+  }
+
+  .postGameMobileVideo h1 {
+    padding-bottom: 200px;
+  }
+
+  .postGameMobileContent {
+    display: inherit;
+    padding: 2em;
+  }
+  /* end */
 }
