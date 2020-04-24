@@ -30,17 +30,11 @@ render(){
         <h1>Pre-Game View</h1>
         <PreGame gameData={this.state.gameData} />
         <br></br>
-        <br></br>
-        <br></br>
         <h1>Live-Game View</h1>
         <LiveGame gameData={this.state.gameData} />
         <br></br>
-        <br></br>
-        <br></br>
         <h1>Post-Game View</h1>
         <PostGame gameData={this.state.gameData} />
-        <br></br>
-        <br></br>
         <br></br>
       </div>
     </div>
