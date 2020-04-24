@@ -103,21 +103,24 @@
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
+  /* first live game container (all content) */
   .liveGameMainContainer {
     margin-left: .4em;
     margin-right: .4em;
   }
+  /* end */
 
   .liveGameScoreContainer {
     border: none;
   }
 
-  .liveGameHeaderRow,
-  .liveGameTeamsContainer,
-  .liveGameScoreFeedContainer {
+  /* hides sections for mobile view (live game header, live game score box, team images, and game scores for other teams) */
+  .liveGameDesktopOnly {
     display: none;
   }
+  /* end */
 
+  /* dispayed only for mobile view */
   .liveGameMobileVideo {
     display: inherit;
     border: solid darkGray;
@@ -138,6 +141,5 @@
     display: inherit;
     padding: 2em;
   }
+  /* end */
 }
-
-/* change name of mobile container cause its in pregame as well */
