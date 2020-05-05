@@ -1,4 +1,5 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 import './App.css';
 
 //Test data object
@@ -27,14 +28,9 @@ render(){
       <div className="Container">
         <Ad />
         <br></br>
-        <h1>Pre-Game View</h1>
-        <PreGame gameData={this.state.gameData} />
-        <br></br>
-        <h1>Live-Game View</h1>
-        <LiveGame gameData={this.state.gameData} />
-        <br></br>
-        <h1>Post-Game View</h1>
-        <PostGame gameData={this.state.gameData} />
+        <Route exact path='/' component={PreGame} />
+        <Route exact path='/livegame' render={()=><LiveGame gameData={this.state.gameData}/>}/>
+        <Route exact path='/postgame' render={()=><PostGame gameData={this.state.gameData}/>}/>
         <br></br>
       </div>
     </div>
