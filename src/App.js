@@ -7,6 +7,7 @@ import './App.css';
 import testJsonObject from './test_json_object.js'
 
 //Components
+import Nav from './components/Nav';
 import Ad from './components/Ad';
 import PreGame from './components/PreGame';
 import LiveGame from './components/LiveGame';
@@ -26,11 +27,14 @@ render(){
   return (
     <div className="App">
       <div className="Container">
+        <Nav />
         <Ad />
         <br></br>
-        <Route exact path='/' component={PreGame} />
-        <Route exact path='/livegame' render={()=><LiveGame gameData={this.state.gameData}/>}/>
-        <Route exact path='/postgame' render={()=><PostGame gameData={this.state.gameData}/>}/>
+        <Switch>
+          <Route exact path='/' component={PreGame} />
+          <Route exact path='/livegame' render={()=><LiveGame gameData={this.state.gameData}/>}/>
+          <Route exact path='/postgame' render={() => <PostGame gameData={this.state.gameData} />} />
+        </Switch>
         <br></br>
       </div>
     </div>

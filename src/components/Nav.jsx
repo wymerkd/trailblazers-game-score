@@ -1,9 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+import '../css/Nav.css';
 
 function Nav() {
   return (
     <div className="container">
-      <div className="row">
+      <div className="row navbar">
         <div className="col">
           <Link to="/">Pre-Game View</Link>
         </div>
