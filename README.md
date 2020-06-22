@@ -4,7 +4,7 @@
 
 ## Description
 
-#### _This application was made as a POC for the Portland Trailblazers pre-game, live game, and post-game game score views. It acts as the skeleton for said views, and can easily be plugged in to a backend. Currently it pulls in data from the test_json_object.js, which are being past to each component via props_
+#### _This application was made as a POC for the Portland Trailblazers pre-game, live game, and post-game game score views. It acts as the skeleton for said views, and can easily be plugged in to a backend. Currently it pulls in data from the test_json_object.js, which is being past to each component via props_
 
 ### Things that will need to change once connected to backend 
 
@@ -28,7 +28,7 @@ _For any questions, comments or contributions please contact Kyle Wymer (wymerkd
 
 ## Technologies Used
 
-_React
+_React, Javascript, HTML, CSS_
 
 ### License
 
